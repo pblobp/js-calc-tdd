@@ -1,0 +1,7 @@
+const sum = (num1, num2) => num1 + num2;
+const sub = (num1, num2) => num1 - num2;
+const div = (num1, num2) =>
+  num2 === 0 ? 'not allowed division by zero' : num1 / num2;
+const mult = (num1, num2) => num1 * num2;
+
+export { sum, sub, div, mult };
