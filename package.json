@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register",
-    "test:tdd": "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register --watch"
+    "test":
+      "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register",
+    "test:tdd":
+      "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register --watch"
   },
   "author": "Pablo Boff Pigozzo <pblobp@gmail.com>",
   "license": "MIT",
@@ -14,5 +16,9 @@
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pblobp/js-calc-tdd.git"
   }
 }
